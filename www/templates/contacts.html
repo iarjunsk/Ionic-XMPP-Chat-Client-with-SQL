@@ -1,0 +1,38 @@
+<ion-view style="" id="page3" title="Contacts">
+
+
+    <ion-content class="has-header" >
+	
+	<div class="item item-input-inset">
+		<label class="item-input-wrapper">
+		  <input type="text" placeholder="Jabber ID" ng-model="add_jid">
+		</label>
+		<button class="button button-small icon ion-plus" ng-click="add(add_jid)">
+		  
+		</button>
+	</div>
+
+
+	
+        <ion-list style="">
+		 <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="chat in chats" type="item-text-wrap" ng-click="chatD(chat.id)">
+			<img ng-src="{{chat.face}}">
+			<h2>{{chat.name}}</h2>
+			<p>{{chat.lastText}}</p>
+			<i class="icon ion-chevron-right icon-accessory"></i>
+
+			<ion-option-button class="button-assertive" ng-click="remove(chat)">
+			  Delete
+			</ion-option-button>
+			
+		  </ion-item>
+		</ion-list>		
+		
+		
+		
+		
+    </ion-content>
+
+</ion-view>
+
+

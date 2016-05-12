@@ -1,0 +1,29 @@
+<ion-view style="" id="page2" title="Chats">
+    <ion-content class="has-header" >
+	
+		<label style="" class="item item-input">
+            <i class="icon ion-search placeholder-icon"></i>
+            <input placeholder="" type="search">
+        </label>
+
+		
+		
+		<ion-list style="">
+		 <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="chatitem in chatlogs" type="item-text-wrap" ng-click="chatD(chatitem.id)">
+			<img ng-src="{{chatitem.face}}">
+			<h2>{{chatitem.name}}</h2>
+			<p>{{chatitem.lastText}}</p>
+			<i class="icon ion-chevron-right icon-accessory"></i>
+
+			<ion-option-button class="button-assertive" ng-click="remove(chatitem)">
+			  Delete
+			</ion-option-button>
+			
+		  </ion-item>
+		</ion-list>		
+		
+		
+		
+
+    </ion-content>
+</ion-view>

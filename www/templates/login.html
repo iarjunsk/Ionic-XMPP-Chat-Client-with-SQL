@@ -1,0 +1,30 @@
+<ion-view style="" id="page5" title="Login" hide-back-button="true">
+    <ion-content class="has-header" padding="true">
+        <form style="" class="list">
+            <ion-list style="">
+			
+                <label style="" class="item item-input">
+                    <span class="input-label">Jabber ID</span>
+                    <input ng-model="user.jid" placeholder="admin" type="text">
+                </label>
+            
+				<label style="" class="item item-input">
+                    <span class="input-label">Password</span>
+                    <input ng-model="user.pass" placeholder="admin" type="password">
+                </label>
+                
+				<label style="" class="item item-input">
+                    <span class="input-label">Host</span>
+                    <input ng-model="user.host" placeholder="localhost" type="text">
+                </label>
+            
+			</ion-list>
+            <div style="height: 40px;" class="spacer"></div>
+            
+			 <button  class="button button-stable button-block "  id="login-button" ng-click="login(user)" >Log in</button>
+			 
+			 <button  class="button button-stable button-block "  id="register-button" ng-click="goToRegister()" >Register</button>
+            
+			</form>
+    </ion-content>
+</ion-view>
