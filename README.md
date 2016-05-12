@@ -1,4 +1,5 @@
-# Ionic-Chat-App
+# Ionic XMPP Chat Client with SQL
+
 
 ![Ionic Chat](https://raw.githubusercontent.com/arjunsk/Ionic-XMPP-Chat-Client-with-SQL/master/Screenshots/background.png)
 
