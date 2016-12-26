@@ -13,3 +13,7 @@ For the complete tutorial series on how to build this app, Please visit
 
 [Tutorial on Ionic Chat: SQL Integration ](http://www.arjunsk.com/html5/ionic-xmpp-client-sql_db-part-4/)
 
+## Video Tutorial:  
+
+[![Ionic XMPP Chat Client with SQL](https://img.youtube.com/vi/rUxhCRJ8ffc/0.jpg)](https://www.youtube.com/watch?v=rUxhCRJ8ffc&feature=youtu.be)
+
