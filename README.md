@@ -3,6 +3,10 @@
 
 ![Ionic Chat](https://raw.githubusercontent.com/arjunsk/Ionic-XMPP-Chat-Client-with-SQL/master/Screenshots/background.png)
 
+<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/kpPTfcZs2AmDLYbvJ42HTnR3/arjunsk/Ionic-XMPP-Chat-Client-with-SQL'>
+  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/kpPTfcZs2AmDLYbvJ42HTnR3/arjunsk/Ionic-XMPP-Chat-Client-with-SQL.svg' />
+</a>
+
 This is XMPP chat Client build using ionic Cordova. Integrated Local SQL database for storing the chat message .
 
 For the complete tutorial series on how to build this app, Please visit 
