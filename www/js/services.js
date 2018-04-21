@@ -169,7 +169,7 @@ angular.module('app.services', [])
 	
 	 var SharedConnObj={};
 	
-	 SharedConnObj.BOSH_SERVICE = 'http://xvamp:7070/http-bind/';  
+	 SharedConnObj.BOSH_SERVICE = 'http://127.0.0.1:7070/http-bind/';  
 	 SharedConnObj.connection   = null;    // The main Strophe connection object.
 	 SharedConnObj.loggedIn=false;
 	 
