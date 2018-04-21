@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.ionicframework.xmpp607769" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.plummer.org" version="1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Plumber</name>
     <description>Plumber</description>
     <author email="veto@myridia.com" href="https://github.com/veto64/plumber">Veto</author>
@@ -31,6 +31,5 @@
         <splash density="port-xhdpi" src="resources/android/splash/drawable-port-xhdpi-screen.png" />
     </platform>
     <icon src="resources/android/icon/drawable-xhdpi-icon.png" />
-    <engine name="browser" spec="^5.0.3" />
     <engine name="android" spec="^7.0.0" />
 </widget>
