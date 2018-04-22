@@ -60,7 +60,7 @@ angular.module('app.controllers', [])
 
 .controller('loginCtrl', function($scope , sharedConn,$state ) {
 
-	var XMPP_DOMAIN  = 'xvamp'; // Domain we are going to be connected to.
+	var XMPP_DOMAIN  = '127.0.0.1'; // Domain we are going to be connected to.
 	var xmpp_user    = 'admin';     // xmpp user name
 	var xmpp_pass    = 'admin';
 	

@@ -1,0 +1,35 @@
+version: '3'
+services:
+  openfire:
+    container_name: openfire
+    image: veto64/docker-openfire
+    ports:
+     - 9090:9090
+     - 7070:7070
+     - 5222:5222
+     - 5223:5223
+    volumes:
+      - "./conf:/opt/openfire/conf/"
+      - "./security/:/opt/openfire/resources/security/"
+
+  pgdb:
+    image: postgres
+    container_name: pgdb
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres:/var/lib/postgresql/data
+      - "./docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d"
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: passpass
+      POSTGRES_DB: openfile
+
+  adminer:
+    image: adminer
+    container_name: adminer
+    ports:
+      - 8080:8080
+
+volumes:
+  postgres:
